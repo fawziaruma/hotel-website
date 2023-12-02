@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+#nav-link{
+    color: tan;
+
+}
+#nav-item{
+    margin: 0px 10px;
+}
+#nav-item:hover{
+    color:tan;
+}
+#nav-btn{
+    width: 100px;
+    border-radius: 50px;
+    padding: 5px 7px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+    
+
+}
+#nav-btn:hover{
+    color: white;
+    background-color:tan ;
+    border: none;
+}
+/* .......carosel......... */
+.booking-area{
+    position: absolute;
+   background-color: white;
+   height: auto;
+   z-index: 1;
+   bottom: -50;
+   left: 80;
+   height: 80px;
+   padding-top: 15px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#banner-btn{
+    width: 150px;
+    background-color: white;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 7px 7px;
+    border: 1px solid black;
+
+}
+.booking-area .form-control,
+.booking-area .form-select{
+    border: 1px solid black;
+    height: 2.5rem;
+    font-size: .875rem;
+    color: black;
+    font-weight: 500;
+}
+@media (max-width: 767px) {
+    .booking-area {
+      text-align: center; 
+      background-color: white;
+      height: auto; 
+      width: 50%;
+      bottom: -200;
+    }
+    .booking-area input{
+        width: 70%;
+
+    }
+
+    .form-select option{
+        width: 50%;
+    }
+}
+/* ......welcome */
+#welcome{
+    margin-top: 100px;
+}
+#welcome h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: inherit;
+    line-height: 1.5;
+}
+#welcome span{
+    color: tan;
+}
+#welcome p{
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+/* .....room........ */
+#room{
+    position: relative;
+    cursor: pointer;
+    
+}
+.img-info h3{
+    font-size: 25px;
+    font-family: initial;
+    font-weight: 600;
+    color: white;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.img-info p{
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#room-btn{
+    padding: 10px 20px;
+    border-radius: 50px;
+   background-color: transparent;
+   color: white;
+   border: 1px solid white;
+   margin-top: 25px;
+   margin-left: 10px;
+    
+    
+}
+.img-info{
+    position: absolute;
+     display: none; 
+    top: 30;
+    left: 27;
+    border: 1px solid white;
+    width: 260px;
+    height: 320px;
+    padding: 10px 10px;
+    
+}
+#room:hover .img-info{
+     display: block; 
+}
+/* ..........tabs....... */
+.service-menu-area ul li a{
+    display: block;
+    margin-bottom: 2.8125rem;
+}
+.service-menu-area ul li a .service-icon{
+    height: 5.625rem;
+    width: 5.625rem;
+    line-height: 5.625rem;
+    text-align: center;
+    border-radius: 100%;
+    float: left;
+}
+.service-menu-area ul li a{
+    text-decoration: none;
+    color: black;
+}
+.service-icon img{
+    background-color: rgb(248, 196, 133);
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+.service-icon:hover img{
+    background-color: black;
+}
+/* ......counter...... */
+.counter{
+    margin-top: 100px;
+    background: url(/image/services/bg2.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+}
+.counter-info h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.counter-info p{
+    color: white;
+    font-weight: 500;
+}
+/* .......team....... */
+.card-info{
+    position: absolute;
+    background-color: rgb(236, 192, 139);
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 1px;
+}
+.card img{
+    border-radius: 3px;
+}
+/* ......... */
+#row{
+    margin-top: -20px;
+}
+/* .....price card.... */
+#price-card a{
+    color: white;
+   
+}
+#price-card p{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 3px;
+    color: white;
+    
+}
+.price-btn{
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid white;
+    width: 150px;
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card-foo{
+    border-top: 1px solid white;
+    
+}
+.card{
+    
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#text{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+/* ......blog........ */
+.blog-card{
+    position: relative;
+    width: 390px;
+    height: 150px;
+    top: -70;
+    float: right;
+    border-radius: 2px;
+    z-index: 1;
+    background-color: #ffff;
+    padding: 10px 17px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.blog-card h4{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: initial;
+}
+.blog-card p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.blog-btn{
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 14px;
+}
+.blog-btn:hover{
+    background-color:  rgb(236, 192, 139);
+    color: white;
+    border: none;
+}
+/* ......footer...... */
+#foo-left input{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 7px 7px;
+    width: 250px;
+}
+#foo-left button{
+    width: 130px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+@media (min-width: 992px) {
+    .custom-row [class^="col-"] {
+      padding-right: 0px;
+      padding-left: 0px; 
+    }
+  }
+  @media (max-width: 767px) {
+    .blog-card {
+      width: 85%;
+      font-size: 13px;
+    }
+    .blog-btn{
+        margin-top: -15px;
+    }
+  }
+  
